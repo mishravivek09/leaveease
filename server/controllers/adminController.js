@@ -67,7 +67,7 @@ export const inviteUser = async (req, res) => {
 
   sendEmailFireAndForget({
     to: created.email,
-    subject: "Welcome to LeaveEase — Account Invited",
+    subject: "Welcome to LeaveEase : Account Invited",
     text: `Hello ${created.name}, your account has been created. Temporary password: ${tempPassword}. Please change it on first login.`,
   });
 

@@ -114,7 +114,7 @@ export default function TrackLeave() {
           <Card className="w-full max-w-lg rounded-2xl">
             <CardContent className="space-y-4 p-6">
               <div className="flex items-center justify-between">
-                <h3 className="text-base font-semibold">Audit Trail — {selectedAudit.leaveTypeId?.typeName}</h3>
+                <h3 className="text-base font-semibold">Audit Trail : {selectedAudit.leaveTypeId?.typeName}</h3>
                 <Button size="sm" variant="ghost" onClick={() => setSelectedAudit(null)}>
                   Close
                 </Button>

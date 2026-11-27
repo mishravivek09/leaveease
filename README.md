@@ -1,4 +1,4 @@
-# LeaveEase — Leave Management System (IGNOU MCSP-232)
+# LeaveEase : Leave Management System (IGNOU MCSP-232)
 
 > **Copyright © 2026 Vivek Mishra (`bytecode.vivek@gmail.com`)**  
 > Developed for the **IGNOU MCAOL Project (MCSP-232)**. See [LICENSE](./LICENSE).
@@ -96,5 +96,5 @@ npm --prefix client run lint
 
 **Vivek Mishra**  
 Email: `bytecode.vivek@gmail.com`  
-Project: IGNOU MCSP-232 — Leave Management System  
+Project: IGNOU MCSP-232 : Leave Management System  
 Copyright © 2026 Vivek Mishra. All rights reserved.

@@ -140,7 +140,7 @@ export default function Approvals() {
         <AlertDialogContent>
           <AlertDialogHeader>
             <AlertDialogTitle>
-              Confirm {modalState.decision} — {modalState.leave?.empId?.name || "Employee"}
+              Confirm {modalState.decision} : {modalState.leave?.empId?.name || "Employee"}
             </AlertDialogTitle>
             <AlertDialogDescription>
               {modalState.decision === "Rejected"

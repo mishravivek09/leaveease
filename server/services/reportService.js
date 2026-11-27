@@ -199,7 +199,7 @@ export function streamPdf(res, title, filename, columns, rows) {
   const doc = new PDFDocument({ margin: 36, size: "A4", layout: "landscape" });
   doc.pipe(res);
 
-  doc.fontSize(16).text("LeaveEase — MCSP-232 MIS Report", { align: "left" });
+  doc.fontSize(16).text("LeaveEase : MCSP-232 MIS Report", { align: "left" });
   doc.fontSize(12).text(title, { align: "left" });
   doc.fontSize(9).fillColor("#555").text(`Generated: ${new Date().toISOString()}`);
   doc.moveDown(1);
